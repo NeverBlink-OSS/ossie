@@ -23,7 +23,7 @@
 #   'imports' are resolved from disk, exactly as the linkml-scala CLI resolves
 #   them.
 #
-#   A schema can load and still have errors and warnings against it. Any the
+#   A schema can load and still have errors and warnings against it. Any issues the loader reports are written to stderr; only fatal problems stop the run.
 #   loader reports are written to stderr; only fatal problems stop the run.
 #
 # Usage:
